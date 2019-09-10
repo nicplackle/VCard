@@ -1,41 +1,45 @@
-body {background-image: url("img/backgroundwood.png");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Permanent+Marker&display=swap');
+
+body {
+  background-image: url("img/backgroundwood.png");
+  color: rgb(32, 32, 32);
+  height: 100vh;
+  width: 100vw;
+
     } 
 h1{
-    font-family: "Lohit Devanagari Regular" sans-serif
-    }
+  font-family: 'Permanent Marker', cursive;
+  color:rgb(61, 119, 129);
+}
+    
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    background: linear-gradient(#b4b4b4, transparent);
-  }  
+font-family:'Montserrat', sans-serif;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+padding-bottom: 1.2em;
+text-align: center;
+background: linear-gradient(#696969, white);
+}  
+
 .title {
     color: rgb(44, 43, 43);
     font-size: 18px;
-  }
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: rgb(48, 136, 158);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  } 
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    font-family: "Lohit Devanagari Regular" sans-serif;
-  }
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(48, 136, 158);
+  font-family: "Lohit Devanagari Regular" sans-serif;
+}
   
-  button:hover, a:hover {
+a:hover {
     opacity: 0.7;
-  }   
-footer{color: grey;
-    text-align: center;}   
+  }  
+
+footer{color: rgb(32, 32, 32);
+    text-align: center;
+    margin-top: 1em;
+}   
              
